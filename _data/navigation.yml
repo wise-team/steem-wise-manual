@@ -2,33 +2,33 @@ menu:
   - title: Introduction
     children:
       - title: "Introduction"
-        url: /index/
+        url: /index
       - title: "Video by @noisy"
-        url: /introduction/video-noisy/
+        url: /introduction/video-noisy
 
   - title: Beginner's guide
     children:
       - title: "Voting using voter-page"
-        url: /beginners/voting-using-voter-page/
+        url: /beginners/voting-using-voter-page
       - title: "The WISE platform"
-        url: /beginners/platform/
+        url: /beginners/platform
 
   - title: Advanced guide
     children:
       - title: "The CLI tool"
-        url: /advanced/cli/
+        url: /advanced/cli
       - title: "Synchronising the rules"
-        url: /advanced/rules/
+        url: /advanced/rules
       - title: "Running the daemon"
-        url: /advanced/daemon/
+        url: /advanced/daemon
       - title: "The WISE protocol"
-        url: /advanced/protocol/
+        url: /advanced/protocol
 
   - title: More
     children:
       - title: "More resources & docs"
-        url: /more/resources/
+        url: /more/resources
       - title: "Where to find help"
-        url: /more/help/
+        url: /more/help
       - title: "How to contribute"
-        url: /more/contribute/
+        url: /more/contribute
