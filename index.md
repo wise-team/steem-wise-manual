@@ -3,7 +3,7 @@ title: "Steem WISE: Introduction"
 # toc: true
 ---
 
-> This text is a draft. It is meant to be continued by [@noisy](https://steemit.com/@noisy). Stay tuned!
+> This text is a draft. It is meant to be changed by [@noisy](https://steemit.com/@noisy). Stay tuned!
 
 ## What will WISE do for the community?
 

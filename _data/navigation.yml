@@ -21,11 +21,13 @@ menu:
         url: /advanced/rules/
       - title: "Running the daemon"
         url: /advanced/daemon/
+      - title: "The WISE protocol"
+        url: /advanced/protocol/
 
-  - title: More docs
+  - title: More
     children:
-      - title: "More docs"
-        url: /more/docs/
+      - title: "More resources & docs"
+        url: /more/resources/
       - title: "Where to find help"
         url: /more/help/
       - title: "How to contribute"
