@@ -1,0 +1,50 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+/** VARIABLES **/
+$link-color: #6b11ff;
+$masthead-link-color: white;
+
+// disable animations:
+$intro-transition  : none;
+$global-transition : none;
+
+
+
+/** MINIMAL MISTAKES IMPORTS **/
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+
+
+/** CUSTOM CSS **/
+.masthead {
+    background: #6b11ff;
+    color: white;
+
+    nav {
+        background: none;
+    }
+
+    a {
+        color: white;
+    }
+    a:hover {
+        color: white !important;
+    }
+
+    .greedy-nav a:hover {
+        color: white !important;
+    }
+
+    .wise-logo {
+        height: 1rem;
+        padding-right: 1.5rem;
+        border-right: 1px solid rgba(255, 255, 255, 0.5);
+        margin-right: 1.5rem;
+    }
+}
