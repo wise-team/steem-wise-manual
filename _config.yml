@@ -3,7 +3,7 @@ title: Steem WISE Handbook
 email: 
 description: >-
   A comprehensive user manual to Steem WISE vote delegation system
-baseurl: "/steem-wise-handbook/"
+baseurl: "/steem-wise-handbook"
 url: "http://noisy-witness.github.io/steem-wise-handbook" 
 github_username:  noisy-witness
 repository: "noisy-witness/steem-wise-handbook"
@@ -24,6 +24,7 @@ defaults:
   - scope:
       path: "" # an empty string here means all files in the project
     values:
+      layout: single
       sidebar:
         nav: "menu"
         
