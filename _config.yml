@@ -10,7 +10,7 @@ repository: "noisy-witness/steem-wise-handbook"
 
 title_separator: "|"
 site.locale: pl-PL
-search: true
+search: false
 
 
 # Build settings
