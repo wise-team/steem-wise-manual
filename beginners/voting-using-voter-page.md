@@ -9,31 +9,31 @@ Someone had allowed you to vote on his/her behalf? It's now time to do it! Remem
 
 
 
-![step_1](/assets/images/beginners/voting-using-voter-page/step_1.png)
+![step_1]({{ "/assets/images/beginners/voting-using-voter-page/step_1.png" | absolute_url }})
 
 ### 1. Go to https://wise.vote &uarr;
 
 
 
-![step_2](/assets/images/beginners/voting-using-voter-page/step_2.png)
+![step_2]({{ "/assets/images/beginners/voting-using-voter-page/step_2.png" | absolute_url }})
 
 ### 2. Enter your username and username of the person who has delegated you the vote &uarr;
 
 
 
-![step_3](/assets/images/beginners/voting-using-voter-page/step_3.png)
+![step_3]({{ "/assets/images/beginners/voting-using-voter-page/step_3.png" | absolute_url }})
 
 ### 3. Click the blue button to load the rules under which you can use the delegation &uarr;
 
 
 
-![step_4](/assets/images/beginners/voting-using-voter-page/step_4.png)
+![step_4]({{ "/assets/images/beginners/voting-using-voter-page/step_4.png" | absolute_url }})
 
 ### 4. It will take a moment for the rules to load
 
 
 
-![step_5](/assets/images/beginners/voting-using-voter-page/step_5.png)
+![step_5]({{ "/assets/images/beginners/voting-using-voter-page/step_5.png" | absolute_url }})
 
 ### 5. Now choose under which set of rules you will vote
 
@@ -41,7 +41,7 @@ The delegator can delegate you a few rulesets with different allowed weight and 
 
 
 
-![step_6](/assets/images/beginners/voting-using-voter-page/step_6.png)
+![step_6]({{ "/assets/images/beginners/voting-using-voter-page/step_6.png" | absolute_url }})
 
 ### 6. Paste a steemit (or busy) link and select weight of the vote
 
@@ -51,7 +51,7 @@ The delegator can delegate you a few rulesets with different allowed weight and 
 
 
 
-![step_7](/assets/images/beginners/voting-using-voter-page/step_7.png)
+![step_7]({{ "/assets/images/beginners/voting-using-voter-page/step_7.png" | absolute_url }})
 
 ### 7. Enter YOUR posting key and click on the button.
 
