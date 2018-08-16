@@ -15,12 +15,6 @@ It is a vote delegation system. Wise allows you to securely allow other users us
 
 
 
-## Why is WISE necessary for steem?
-
-> To be continued by @noisy.
-
-
-
 ## How does WISE work?
 
 In short: WISE allows you to delegate your vote under **strictly defined criteria**.
@@ -35,31 +29,35 @@ How is this possible? Using WISE, you place on Steem blockchain the rules under 
 
 
 
-## What will WISE do for the community?
+## Why did we create WISE?
 
-An ultimate cure for cancer was the biggest holy grail of medicine for decades. However time has shown, that instead of ultimate cure, there are many potent, but narrow-targeted drugs. So are counter-abuse mechanisms in Steem network. 
+This is a question for the author of the idea — Krzysztof @noisy. However, for my text to be complete, I will present my point of view. For me, Steem is an unusual phenomenon, because it behaves like a self-managing newspaper editorial office. Let me explain. A good editorial board needs three things: (1) authors, (2) editors and (3) readers. Ned Scott and colleagues have implemented mechanisms that drive "promotion" in steem. The mechanism of votes encourages authors to create good content, while the ability to accumulate shares (vests) gives power over the content and over the shape of whole steem. Here is the encouragement for authors and editors. That's how it should look. Unfortunately, as in the classic editorial office, those with highest power usually do not have adequate knowledge (as all we know the same problem is with the governments ;) ). This makes it much easier to disseminate populist than factual content. One solution to this problem exists in the world of science. In academic journals, experts in specific fields in review boards conduct so-called peer review.  These experts assess that the article is valuable and brings new content into science before it is published. Our main goal is to create a similar solution in Steem.
 
-One of the most significant advantages of steem is that it utilises human resources to distinguish between good and bad content. People are encouraged to vote and flag by financial reward. It is designed to resist most of the abuses; however, some people somehow try to bend the rules. Moreover, there are users, who, create imprecise and misleading content in professional fields. Even though they do it in good faith, it is almost impossible for a layperson to tell if professionally looking pseudo-scientific article tells the truth or not. Another problem is that it is hard for minnows to join forces in a vote-flag fight with a malicious whale. These are some of the wide variety of steem community problems. Probably there is not going to be any single tool to treat them all, but as with cancer drugs, there are many wise, narrow-targeted initiatives. Among them the WISE system is here, to even the odds in a fight with:
+**Expert system on Steem**. Thanks to WISE, people with a lot of shares or power, (the whales), can safely delegate their voting power to people who they consider to be competent in a given field. The rules system makes it possible to set strict conditions for the use of that power. Most often, such a delegation is done by limiting the list of allowed tags. This is just like hiring experts in academic journals!
 
-- Misleading pseudo-science — by allowing the community to appoint professional authorities to a position of curators in the field of their knowledge
-- Abusive whales — through the ability to join forces of many minnows under common leadership
+The Steem community (and whales in particular) is very active when it comes to continuous improvement of content quality. There are numerous actions to stop plagiarism and other abuses and to encourage authors. Unfortunately, single man's capabilities are limited and not only he cannot possess knowledge in all fields, but also his time is limited. To effectively moderate content, some whales would have to read several hundred articles a day. As the network grows — unassisted moderation becomes impossible. This is the place of the expert system that is possible thanks to WISE.
 
-
-
-## What will WISE do for you (if you are a delegator)?
-
-In steem, the best voting strategy is to vote ten times per 24 hours. Each vote decreases your voting power by 2%pp (percentage points). Each 24h 20%pp is restored progressively. The best strategy is to oscillate between 80%-100% of VP. To sum up: if you vote more than 10 votes/24h, your VP will not restore to 100%, but if you vote less than 10 times, your VP will only restore to 100% and not higher, so it means that you have wasted your votes. With WISE:
-
-- You can delegate a static amount of votes (e.g. 150% means 1.5 of full votes or three 50% votes)
-- You can delegate a static amount of vote, but only in a situation when you have a specific amount of votes still left, and it is going to waste.
-
-WISE can also boost your voting earnings: If you delegate your votes to professional authority, it is more likely that the post he will choose will become more popular.
+I'd like to have the ability to say that WISE is a revolution, but because quite successful moderation and cleaning of tags already exist - WISE is an evolution - it is a tool that will simply facilitate and improve already existing processes.
 
 
 
-## What will WISE do for you (if you are a voter)?
+### What benefits does WISE bring to the community?
 
-If you have read preceding paragraphs, you see, that the voter is an essential part of this ecosystem. You may think — what will be my profit if I become a voter? It will not only boost your prestige & significance in the community but also allows you to earn money for being an early curator (you have to remember about early voter penalty for the first 30 minutes). Benefits of using WISE as a voter:
+- An expert system — for us this is the most important application of WISE. It will enable real content curation (like peer review in academic journals)
+- Possibility to punish unacceptable behavior
 
-- Prestige & significance — power makes you noticeable. You can use it to build your personal brand and gain followers. You can become a tag curator if many people delegate you a WISEvote.
-- First curator reward — you can vote with your vote first & then vote as a delegator (which often will be a whale or a big group of minnow delegators). This makes your vote more rewarded.
+More detailed solutions will be possible thanks to growing list of specific rules, and integration with other tools on Steem.
+
+
+
+### What WISE gives to the delegators?
+
+We forsee that most of the delegators will be from among the whales. Probably the most important thing for them will be raising the quality of content on Steem, but in addition WISE will also bring them material benefits. In order to do an effective curation (and of course to waste least amount of VP), a person with a vote worth a dozen USD would have to vote more than hundred times a day. Thanks to WISE whales can avoid wasting time and voting power. What's more, the wisely distributed delegations can make the delegator a more recognizable person.
+
+
+
+### What are the benefits of voters using WISE?
+
+Voters will benefit in two ways. First of all, if they vote for a given post first, before a delegator's vote is cast — they will receive a high curation reward. The second (more important) benefit is the very fact of peing perceived as an expert. Receiving a large number of delegations is in fact a community-issued diploma / title that brings prestige and proves professional knowledge. The vote of many people means common trust.
+
+In addition, Krzysztof @noisy is already talking about integration of our system with other Steem tools. We hope that this will increase the visibility of votes cast by experts using WISE.
