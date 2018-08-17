@@ -9,7 +9,7 @@ title: "Steem WISE: Introduction"
 
 ## What is WISE?
 
-It is a vote delegation system. Wise allows you to securely allow other users using your voting power under certain conditions.
+It is a vote delegation system. Wise allows you to securely allow other users to use your voting power under conditions specified by you.
 
 > To be continued by @noisy.
 
