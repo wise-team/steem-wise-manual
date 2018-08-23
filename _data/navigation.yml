@@ -3,6 +3,8 @@ menu:
     children:
       - title: "Introduction"
         url: /index
+      - title: "Installation"
+        url: /installation
       - title: "Video by @noisy"
         url: /introduction/video-noisy
 
