@@ -2,11 +2,11 @@ menu:
   - title: Introduction
     children:
       - title: "Introduction"
-        url: /index
+        url: /introduction
       - title: "Installation"
         url: /installation
       - title: "Video by @noisy"
-        url: /introduction/video-noisy
+        url: /about/video-noisy
 
   - title: Beginner's guide
     children:
