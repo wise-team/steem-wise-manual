@@ -50,7 +50,7 @@ Wise successfully set up in '.'. Now you have to do two more actions to start th
   1. Run 'wise sync-rules' to publish the rules to the blockchain.
   2. Run 'wise daemon' to start the daemon.
  That's all what is required for the daemon to work. If you would like a more complex setup 
- (e.g. Docker compose) please refer to the "The Wise Handbook".
+ (e.g. Docker compose) please refer to the "The Wise Manual".
 ```
 
 _If you type "true" in the second question, you will be asked for your posting key, and then the key will be written to the config file. Otherwise (if you select false) — you will be prompted for the posting key once in every command. The key will be stored only in RAM memory which provides reasonable security. The password prompt hides the password so that it will not appear in your terminal nor bash logs.._
