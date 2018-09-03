@@ -1,5 +1,5 @@
 ---
-title: "Steem WISE"
+title: "WISE"
 layout: splash
 header:
   overlay_color: "#000"
@@ -8,12 +8,12 @@ header:
   cta_label: "Read about Wise"
   cta_url: "introduction"
   caption: "Photo credit: Agata Chylińska"
-excerpt: "<i>Wise is a vote delegation system for Steem</i><br />Let others vote on your behalf."
+excerpt: "<i>A vote delegation system for Steem blockchain</i> <br />Let others vote on your behalf."
 #intro: 
 #  - excerpt: 'Top row below the header'
 feature_row:
   - title: "For voters"
-    excerpt: "Someone delegetad you his vote? Do you want to vote?"
+    excerpt: "Someone delegetad you his vote? Do you want to vote? <br /> <small>Check instruction <a href=\"beginners/voting-using-voter-page\">here how to vote</a></small>"
     url: "https://wise.vote"
     btn_label: "Go to the Voter's page"
     btn_class: "btn--primary"
