@@ -4,7 +4,7 @@ email:
 description: >-
   A comprehensive user manual to Steem WISE vote delegation system
 baseurl: "/steem-wise-manual"
-url: "http://noisy-witness.github.io" 
+url: "https://noisy-witness.github.io" 
 github_username:  noisy-witness
 repository: "noisy-witness/steem-wise-manual"
 
