@@ -1,10 +1,11 @@
 name: WISE Team
 title: Steem WISE Manual
 email: 
-description: >-
-  A comprehensive user manual to Steem WISE vote delegation system
+description: A comprehensive user manual to Steem WISE vote delegation system
+url: "https://noisy-witness.github.io"
 baseurl: "/steem-wise-manual"
-url: "https://noisy-witness.github.io" 
+logo_link: "/"
+manual_link: "/introduction"
 github_username:  noisy-witness
 repository: "noisy-witness/steem-wise-manual"
 
