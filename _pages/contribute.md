@@ -1,5 +1,6 @@
 ---
-title: "Running the Daemon"
+title: "How to contribute"
+permalink: "/contribute"
 # toc: true
 ---
 

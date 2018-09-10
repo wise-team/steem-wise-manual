@@ -1,5 +1,6 @@
 ---
 title: "Introduction to WISE — a video by noisy"
+permalink: "/about/video-noisy"
 # toc: true
 ---
 

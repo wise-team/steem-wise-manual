@@ -1,5 +1,6 @@
 ---
-title: "Where to find help"
+title: "The WISE protocol"
+permalink: "/advanced/protocol"
 # toc: true
 ---
 

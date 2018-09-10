@@ -1,5 +1,6 @@
 ---
-title: "Wise resources & docs"
+title: "The CLI tool"
+permalink: "/advanced/cli"
 # toc: true
 ---
 

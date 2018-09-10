@@ -1,5 +1,6 @@
 ---
-title: "How to contribute"
+title: "Where to find help"
+permalink: "/help"
 # toc: true
 ---
 

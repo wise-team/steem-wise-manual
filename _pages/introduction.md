@@ -1,5 +1,6 @@
 ---
 title: "Steem WISE: Introduction"
+permalink: "/introduction"
 # toc: true
 ---
 

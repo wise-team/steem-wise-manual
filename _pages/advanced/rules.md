@@ -1,5 +1,6 @@
 ---
-title: "The WISE protocol"
+title: "Guide on setting and synchronising the rules"
+permalink: "/advanced/rules"
 # toc: true
 ---
 

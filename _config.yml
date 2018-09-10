@@ -19,6 +19,7 @@ markdown: kramdown
 plugins:
   # no plugins
 remote_theme: "mmistakes/minimal-mistakes"
+include: [ "_pages" ]
 
 ## Front matter defaults
 defaults:

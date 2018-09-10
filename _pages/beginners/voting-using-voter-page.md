@@ -1,5 +1,6 @@
 ---
 title: "Voting using the Voter Page"
+permalink: "/beginners/voting-using-voter-page"
 # toc: true
 ---
 

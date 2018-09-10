@@ -17,6 +17,8 @@ menu:
 
   - title: Advanced guide
     children:
+      - title: "Rules"
+        url: /rules/overview
       - title: "The CLI tool"
         url: /advanced/cli
       - title: "Synchronising the rules"
@@ -29,8 +31,8 @@ menu:
   - title: More
     children:
       - title: "More resources & docs"
-        url: /more/resources
+        url: /resources
       - title: "Where to find help"
-        url: /more/help
+        url: /help
       - title: "How to contribute"
-        url: /more/contribute
+        url: /contribute

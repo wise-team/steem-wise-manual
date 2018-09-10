@@ -1,5 +1,6 @@
 ---
 title: "The WISE platform"
+permalink: "/beginners/platform"
 # toc: true
 ---
 

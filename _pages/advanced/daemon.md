@@ -1,5 +1,6 @@
 ---
-title: "Guide on setting and synchronising the rules"
+title: "Running the Daemon"
+permalink: "/advanced/daemon"
 # toc: true
 ---
 
