@@ -18,11 +18,11 @@ menu:
   - title: Advanced guide
     children:
       - title: "Rules"
-        url: /rules/overview
+        url: /rules
       - title: "The CLI tool"
         url: /advanced/cli
       - title: "Synchronising the rules"
-        url: /advanced/rules
+        url: /advanced/synchronising-rules
       - title: "Running the daemon"
         url: /advanced/daemon
       - title: "The WISE protocol"
