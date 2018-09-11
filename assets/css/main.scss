@@ -51,6 +51,12 @@ $global-transition : none;
     }
 }
 
+.page__hero--overlay {
+    -webkit-box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.4);
+}
+
 .search__toggle {
     color: white !important;
 }
