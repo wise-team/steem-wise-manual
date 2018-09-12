@@ -10,7 +10,7 @@ permalink: "/rules/tags"
 Tags rule restricts post tags in four modes.
 
 This rule has two fields: **mode** and **tags**.
-- **mode**: There are four modes: `allow` and `deny`.
+- **mode**: There are four modes: `allow`, `deny`, `require`, `any`.
   - **Allow**: all post tags must be on the list
   - **Deny**: no of the post tags can be on the list
   - **Require**: the post must have all tags from the list, but can include other not listed tags.
