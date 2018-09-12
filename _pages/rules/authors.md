@@ -9,7 +9,7 @@ permalink: "/rules/authors"
 Authors rule allows you to create an allow / deny list of authors of steem posts.
 
 This rule has two fields: **mode** and **authors**.
-- **mode**: There are two modes: ``allow` and `deny`.
+- **mode**: There are two modes: `allow` and `deny`.
   - Allow mode creates a white list. To be valid - the voted post must be authored by one of the people that are listed in this rule.
   - Deny mode creates a black list. To be valid - the voted post MUST NOT be authored by one of the people that are listed in this rule.
 - **authors**: a list of authors
