@@ -35,7 +35,6 @@ Here are example rules defined for a single voter @jblew:
         has payout less than 9.5 SBD"
       rules:
         - rule: weight
-          mode: single_vote_weight
           min: 0
           max: 10000
         - rule: age_of_post

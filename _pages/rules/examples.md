@@ -13,7 +13,6 @@ permalink: "/rules/examples"
         graphics, design or webdesign"
       rules:
         - rule: weight
-          mode: single_vote_weight
           min: 0
           max: 2000
         - rule: tags
@@ -34,7 +33,6 @@ permalink: "/rules/examples"
         Not-Safe-For-Work"
       rules:
         - rule: weight
-          mode: single_vote_weight
           min: 0
           max: 10000
         - rule: tags
@@ -55,7 +53,6 @@ permalink: "/rules/examples"
       description: You can use my flag any polish post
       rules:
         - rule: weight
-          mode: single_vote_weight
           min: 0
           max: 10000
         - rule: tags
@@ -74,7 +71,6 @@ permalink: "/rules/examples"
         any of your team peers and has no more than 100 voters."
       rules:
         - rule: weight
-          mode: single_vote_weight
           min: 0
           max: 10000
         - rule: voters
@@ -100,7 +96,6 @@ permalink: "/rules/examples"
         has payout less than 9.5 SBD"
       rules:
         - rule: weight
-          mode: single_vote_weight
           min: 0
           max: 10000
         - rule: age_of_post
@@ -120,7 +115,6 @@ permalink: "/rules/examples"
       description: You can use my full vote on any polish post about Tesla or Elon Musk
       rules:
         - rule: weight
-          mode: single_vote_weight
           min: 0
           max: 10000
         - rule: tags
@@ -142,7 +136,6 @@ permalink: "/rules/examples"
       description: You can use my full vote on any polish post about tesla
       rules:
         - rule: weight
-          mode: single_vote_weight
           min: 0
           max: 10000
         - rule: tags
@@ -160,7 +153,6 @@ permalink: "/rules/examples"
       description: You can use my 0-100% vote for own post
       rules:
         - rule: weight
-          mode: single_vote_weight
           min: 0
           max: 10000
         - rule: authors
@@ -179,7 +171,6 @@ permalink: "/rules/examples"
         voting power."
       rules:
         - rule: weight
-          mode: single_vote_weight
           min: 10000
           max: 10000
         - rule: first_post
@@ -196,7 +187,6 @@ permalink: "/rules/examples"
       description: You can use my full upvote 8 times in a week
       rules:
         - rule: weight
-          mode: single_vote_weight
           min: 0
           max: 10000
         - rule: weight_for_period
