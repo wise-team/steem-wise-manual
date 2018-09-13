@@ -20,6 +20,8 @@ menu:
       - title: "Rules"
         url: /rules
         children:
+          - title: "Rules overview"
+            url: /rules
           - title: "Age of post"
             url: /rules/age-of-post
           - title: "Authors"
@@ -42,6 +44,8 @@ menu:
             url: /rules/weight-for-period
           - title: "First post"
             url: /rules/first-post
+          - title: "Examples"
+            url: /rules/examples
       - title: "The CLI tool"
         url: /advanced/cli
       - title: "Synchronising the rules"
