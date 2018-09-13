@@ -19,6 +19,29 @@ menu:
     children:
       - title: "Rules"
         url: /rules
+        children:
+          - title: "Age of post"
+            url: /rules/age-of-post
+          - title: "Authors"
+            url: /rules/authors
+          - title: "Expiration date"
+            url: /rules/expiration-date
+          - title: "Tags"
+            url: /rules/tags
+          - title: "Payout"
+            url: /rules/payout
+          - title: "Voters"
+            url: /rules/voters
+          - title: "Votes count"
+            url: /rules/votes-count
+          - title: "Voting power"
+            url: /rules/voting-power
+          - title: "Weight"
+            url: /rules/weight
+          - title: "Weight for period"
+            url: /rules/weight-for-period
+          - title: "First post"
+            url: /rules/first-post
       - title: "The CLI tool"
         url: /advanced/cli
       - title: "Synchronising the rules"
