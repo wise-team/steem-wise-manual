@@ -13,7 +13,7 @@ excerpt: "<i>A vote delegation system for Steem blockchain</i> <br />Let others 
 feature_row:
   - title: "For voters"
     excerpt: "Someone delegetad you his vote? Do you want to vote? <br /> <small>Check instruction <a href=\"beginners/voting-using-voter-page\">here how to vote</a></small>"
-    url: "https://wise.vote"
+    url: "/voting-page/"
     btn_label: "Go to the Voter's page"
     btn_class: "btn--primary"
   - title: ""

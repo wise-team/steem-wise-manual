@@ -4,7 +4,7 @@ permalink: "/installation"
 # toc: true
 ---
 
-> Attention: If someone delegated you his vote, you don't have to install anything! Just go to [http://wise.vote/](http://wise.vote/). You can find instructions on using the voting page here: [/beginners/voting-using-voter-page]({{ "/beginners/voting-using-voter-page" | relative_url }}).
+> Attention: If someone delegated you his vote, you don't have to install anything! Just go to [Voting Page](/voting-page/). You can find instructions on using the voting page here: [/beginners/voting-using-voter-page]({{ "/beginners/voting-using-voter-page" | relative_url }}).
 
 Here you can find an easiest instalation & setup of Steem WISE **for delegators**.
 
