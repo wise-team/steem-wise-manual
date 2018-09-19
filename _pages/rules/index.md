@@ -23,6 +23,36 @@ Available rules:
 10. [Weight]({{ "/rules/weight" | relative_url }})
 11. [Weight for period]({{ "/rules/weight-for-period" | relative_url }})
 
+
+
+## Format of rules.yml file
+
+Rules file can be a JSON or a Yaml file. To read about these formats please see: [JSON](http://www.json.org/) and [Yaml](http://yaml.org/). Yaml is more human friendly and error tolerant.
+
+The file contains an array of voter-rulesets pairs. Each item of the array has a **voter** field which contains steem username and a **rulesets** field which is an array of the rulesets. Here is how it looks like:
+
+```yml
+- voter: noisy # steem account name
+  rulesets:
+    - (... ruleset 1 ...)
+    - (... ruleset 2 ...)
+- voter: perduta
+  rulesets:
+    - (... first ruleset for perduta ...)
+    - (... second ruleset for perduta ...)
+    - (... thirs ruleset for perduta ...)
+- voter: jblew
+  rulesets: # there are no rulesets for jblew
+```
+
+Each ruleset is an object that has a **name** (the voter chooses the ruleset by this name in a voteorder) and a list of **rules**. Optionally it can have a description, but it is not required.
+
+A rule is one of the rules that are listed above. Each rule has a **rule** parameter which indicated the type of a rule. Other parameters are specific for each type of the rule. Please refer to the above links to separate pages of the rules.
+
+Joining rules: you can use as many rules as you want. You can use several rules with same type (but different parameters). Rules are joined using AND logic operator. It means that all rules must be fulfilled in order for the voteorder to be valid.
+
+
+
 ## Example rulesets
 
 Here are example rules defined for a single voter @jblew:
