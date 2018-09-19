@@ -5,7 +5,7 @@ layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.4"
-  overlay_image: /assets/images/splash-d2.jpg
+  overlay_image: /assets/images/splashes/splash-d2.jpg
   cta_label: "Read about Wise"
   cta_url: "introduction"
   caption: "Photo credit: Agata Chylińska"
