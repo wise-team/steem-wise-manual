@@ -5,7 +5,7 @@ permalink: "/advanced/synchronising-rules"
 ---
 
 > This page describes how to synchronise: upload and download the rules to/from blockchain. To see 
-> description and examples of the rules go to [rules section]({{ site.url }}{{ site.baseurl }}/rules).
+> description and examples of the rules go to [rules section]({{ "/rules" | relative_url }}).
 
 
 

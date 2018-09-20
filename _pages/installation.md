@@ -4,7 +4,7 @@ permalink: "/installation"
 # toc: true
 ---
 
-> Attention: If someone delegated you his vote, you don't have to install anything! Just go to [http://wise.vote/](http://wise.vote/). You can find instructions on using the voting page here: [/beginners/voting-using-voter-page]({{ site.url }}{{ site.baseurl }}/beginners/voting-using-voter-page).
+> Attention: If someone delegated you his vote, you don't have to install anything! Just go to [http://wise.vote/](http://wise.vote/). You can find instructions on using the voting page here: [/beginners/voting-using-voter-page]({{ "/beginners/voting-using-voter-page" | relative_url }}).
 
 Here you can find an easiest instalation & setup of Steem WISE **for delegators**.
 
@@ -58,7 +58,7 @@ _If you type "true" in the second question, you will be asked for your posting k
 
 
 
-4. **Synchronise the rules** This will send the rules from *rules.yml* file to the blockchain. If you would like to change the rules, please edit rules.yml file. Instructions on writing the rules and list of available rules are available here:  [advanced/rules]({{ site.url }}{{ site.baseurl }}/advanced/rules).
+4. **Synchronise the rules** This will send the rules from *rules.yml* file to the blockchain. If you would like to change the rules, please edit rules.yml file. Instructions on writing the rules and list of available rules are available here:  [advanced/synchronising-rules]({{ "/advanced/synchronising-rules" | relative_url }}).
 
 ```bash
 $ wise sync-rules
@@ -69,7 +69,7 @@ Rules updated: [b=25343299, tx=44, op=0]
 
 
 
-5. **Run the daemon**. This is the very basic mode of running the daemon (without docker). Info on more advanced modes and settings can be found here: [/advanced/daemon]({{ site.url }}{{ site.baseurl }}/advanced/daemon).
+5. **Run the daemon**. This is the very basic mode of running the daemon (without docker). Info on more advanced modes and settings can be found here: [/advanced/daemon]({{ "/advanced/daemon" | relative_url }}).
 
 ```bash
 $ wise daemon
@@ -89,6 +89,6 @@ That's all! You now have a running daemon.
 
 
 
-If you have any questions feel free to ask: [/more/help]({{ site.url }}{{ site.baseurl }}/more/help).
+If you have any questions feel free to ask: [/help]({{ "/help" | relative_url }}).
 
 Thank you for using Wise!
