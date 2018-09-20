@@ -1,0 +1,27 @@
+<div class="page__footer-follow">
+    <ul class="social-icons">
+      {% if site.data.ui-text[site.locale].follow_label %}
+        <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+      {% endif %}
+  
+      {% if site.footer.links %}
+        {% for link in site.footer.links %}
+          {% if link.label and link.url %}
+            <li><a href="{{ link.url }}"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+          {% endif %}
+        {% endfor %}
+      {% endif %}  
+      <li>
+        <a href="https://steem.chat/channel/wise" rel="nofollow">
+          <img alt="Chat" src="https://img.shields.io/badge/chat-on%20steem.chat-6b11ff.svg?style=flat-square" style="max-width:100%;">
+        </a>
+      </li> 
+      <li>
+        <a href="http://muon.jblew.pl:3000/operations?select=moment,delegator,voter,operation_type&amp;order=moment.desc" rel="nofollow">
+          <img alt="Wise operations count" src="https://img.shields.io/badge/dynamic/json.svg?label=wise%20operations%20count&amp;url=http%3A%2F%2Fmuon.jblew.pl%3A3000%2Foperations%3Fselect%3Dcount&amp;query=%24%5B0%5D.count&amp;colorB=blue&amp;style=flat-square" style="max-width:100%;">
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+  <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
