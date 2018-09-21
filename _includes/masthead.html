@@ -2,8 +2,12 @@
     <div class="masthead__inner-wrap">
       <div class="masthead__menu">
         <nav id="site-nav" class="greedy-nav">
-          <a href="{{ site.logo_link }}"><img class="wise-logo" src="{{ site.url }}{{ site.baseurl }}assets/images/wise-white-color.svg" /></a>
+          <a href="{{ site.logo_link }}"><img class="wise-logo{% if page.url == '/' %} home{% endif %}" src="{{ site.url }}{{ site.baseurl }}assets/images/wise-white-color.svg" /></a>
+
+          {% if page.url != '/' %}
           <a class="site-title" href="{{ site.manual_link }}">Manual</a>
+          {% endif %}
+
           {% if site.search == true %}
           <button class="search__toggle" type="button">
             <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
