@@ -5,8 +5,8 @@ menu:
         url: /introduction
       - title: "Installation"
         url: /installation
-      - title: "Video by @noisy"
-        url: /about/video-noisy
+      - title: "Roadmap"
+        url: /roadmap
 
   - title: Beginner's guide
     children:
