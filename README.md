@@ -1,7 +1,7 @@
 # WISE Manual
 A comprehensive user manual to WISE vote delegation system.
 
-> You can read the book here: **https://noisy-witness.github.io/steem-wise-manual**.
+> You can find it here: https://wise.vote/introduction
 
 <br /><br />
 _Thank you,_<br />
