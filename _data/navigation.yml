@@ -5,6 +5,8 @@ menu:
         url: /introduction
       - title: "Installation"
         url: /installation
+      - title: "Definitions"
+        url: /about/definitions
       - title: "Video by @noisy"
         url: /about/video-noisy
 
