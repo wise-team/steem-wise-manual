@@ -24,7 +24,10 @@
   {%- endcase -%}
 {% endif %}
 
-{% include analytics.html %}
+{% if jekyll.environment == 'production' %}
+  {% include analytics.html %}
+{% endif %}
+
 {% include /comments-providers/scripts.html %}
 <script type="text/javascript">
 // source: https://gist.github.com/allybee/5871749
