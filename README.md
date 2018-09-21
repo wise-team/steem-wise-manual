@@ -1,5 +1,5 @@
-# Steem WISE Manual
-A comprehensive user manual to Steem WISE vote delegation system.
+# WISE Manual
+A comprehensive user manual to WISE vote delegation system.
 
 > You can read the book here: **https://noisy-witness.github.io/steem-wise-manual**.
 
