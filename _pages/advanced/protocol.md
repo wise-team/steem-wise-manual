@@ -93,7 +93,7 @@ Example accepted voteorder:
         "voter": "noisy",
         "author": "astromaniak",
         "permlink": "zyciowe-plany-marzenia-kontra-rzeczywistosc",
-        "weight":2500
+        "weight": 2500
     }
 }
 
