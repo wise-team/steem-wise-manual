@@ -4,6 +4,8 @@ permalink: "/roadmap"
 # toc: true
 ---
 
+![Roadmap]({{ "/assets/images/roadmap/roadmap-current-02.png" | absolute_url }})
+
 Despite maturity of this project, Wise is not finished product yet. Wise is first and foremost **a protocol** build on top of Steem.
 
 So, to understand our plan for development of Wise, we needed to ask ourselves a question: _How you can demonstrate a potential of a protocol?_
@@ -37,7 +39,3 @@ Even after building all that cool stuff, we need to remember, that greatest powe
 To better demonstrate a full potential of Wise Protocol, we will help integrate it with multiple 3rd party projects, like [SteemPlus](https://steemprojects.com/projects/p/steemplus/), [SteemProjects](https://steemprojects.com/) and hopefully some Steem interfaces like [Busy](https://busy.org), [SteemPeak](https://steempeak.com/) or [Utopian](https://utopian.io/).
 
 We hope that at that point thousands of Wise users will help us convince developers of other projects, that integration with Wise... is a wise thing to do :)
-
-# In summary
-
-![Roadmap]({{ "/assets/images/roadmap/roadmap-current-02.png" | absolute_url }})
