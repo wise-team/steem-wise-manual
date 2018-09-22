@@ -11,7 +11,7 @@ We welcome warmly:
 - Pull requests
 - Security reports to _jedrzejblew@gmail.com_.
 
-**Before** contributing please CONTRIBUTING guide in appropriate repository.
+**Before** contributing please read CONTRIBUTING guide (and the standarn CODE_OF_CONDUCT) in appropriate repository.
 
 List of our repositories:
 

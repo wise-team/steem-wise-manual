@@ -4,4 +4,13 @@ permalink: "/help"
 # toc: true
 ---
 
-> This section is yet to be written  by [@jblew](https://steemit.com/@jblew). Stay tuned!
+Feel free to talk with us on our #wise channel on steem.chat: https://steem.chat/channel/wise .
+You can also contact Jędrzej at jedrzejblew@gmail.com.
+
+You can also ask questions as issues in appropriate repository: See:
+
+- [Steem wise core issues](https://github.com/noisy-witness/steem-wise-core/issues)
+
+- [Steem wise cli issues](https://github.com/noisy-witness/steem-wise-cli/issues)
+
+- [Steem wise voter page issues](https://github.com/noisy-witness/steem-wise-voter-page/issues)
