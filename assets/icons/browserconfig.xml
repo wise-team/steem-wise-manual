@@ -2,7 +2,7 @@
 <browserconfig>
     <msapplication>
         <tile>
-            <square150x150logo src="https://wise-team.github.io/steem-wise-manual/assets/icons/mstile-150x150.png?v=qABJpEWv7J"/>
+            <square150x150logo src="https://wise.vote/assets/icons/mstile-150x150.png?v=qABJpEWv7J"/>
             <TileColor>#ffffff</TileColor>
         </tile>
     </msapplication>
