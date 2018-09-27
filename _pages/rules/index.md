@@ -7,7 +7,7 @@ permalink: "/rules"
 > This page describes each of the rules. To see how to synchronise them go to
 > [synchronising rules section]({{ "/advanced/synchronising-rules" | relative_url }}).
 
-Here is the list of already defined rules. New rules are added on community requests. If you would like to use a rule that is not written yet, please [create an issue](https://github.com/noisy-witness/steem-wise-core/issues) and add *#enhancement* tag.
+Here is the list of already defined rules. New rules are added on community requests. If you would like to use a rule that is not written yet, please [create an issue](https://github.com/wise-team/steem-wise-core/issues) and add *#enhancement* tag.
 
 Available rules:
 

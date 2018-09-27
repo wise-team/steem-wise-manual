@@ -64,7 +64,7 @@ To start delegating you need to install Wise Cli first, write and upload the rul
 
 1. [Wise cli installation]({{ "/advanced/cli" | relative_url }})
 2. Do `$ wise init` (this is an interactive prompt that will guide you through creating the configuration)
-3. [Write your rules]({{ "/rules" | relative_url }}) to the rules.yml file (There are few examples on the bottom of that page. More complex and real-life examples can be found in the [/samples/rules dir in steem-wise-cli repository](https://github.com/noisy-witness/steem-wise-cli/tree/master/samples/rules))
+3. [Write your rules]({{ "/rules" | relative_url }}) to the rules.yml file (There are few examples on the bottom of that page. More complex and real-life examples can be found in the [/samples/rules dir in steem-wise-cli repository](https://github.com/wise-team/steem-wise-cli/tree/master/samples/rules))
 4. [Upload the rules]({{ "/advanced/synchronising-rules" | relative_url }})
 
 
@@ -94,7 +94,7 @@ This is very a very handy way to run the daemon. You do not need to install anyt
 
 ```bash
 # First, clone the repo
-$ git clone https://github.com/noisy-witness/Steem-wise-cli
+$ git clone https://github.com/wise-team/Steem-wise-cli
 $ cd Steem-wise-cli
 
 # Enter (1) username and (2) posting key, (3) current block number as WISE_DEFAULT_SYNC_START_BLOCK_NUM (you can find what is current block e.g. num at steemd.com)

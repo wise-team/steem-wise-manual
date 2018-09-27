@@ -33,7 +33,7 @@ $ wise upload-rules
 
 If you don't specify the rules file or inline JSON, the default source is "./rules.yml". If you want to use different source file type `$ wise upload-rules my-custom-rules.yml`.
 
-Read more about the [*upload-rules* command](https://github.com/noisy-witness/steem-wise-cli/blob/master/README.md#uploading-rules-wise-upload-rules).
+Read more about the [*upload-rules* command](https://github.com/wise-team/steem-wise-cli/blob/master/README.md#uploading-rules-wise-upload-rules).
 
 
 
@@ -50,5 +50,5 @@ $ wise download-rules --account [steem account] other-delegator-rules.yml
 $ wise download-rules --account noisy noisy-rules.yml
 ```
 
-This command has [more options available](https://github.com/noisy-witness/steem-wise-cli/blob/master/README.md#downloading-rules-wise-download-rules).
+This command has [more options available](https://github.com/wise-team/steem-wise-cli/blob/master/README.md#downloading-rules-wise-download-rules).
 

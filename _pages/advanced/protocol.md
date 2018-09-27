@@ -9,7 +9,7 @@ At the beginning lets recall [the definitions here]({{ "/about/definitions" | re
 > Wise protocol is versioned. This is a description ot Protocol v2 (the second version of protocol).
 > In a future the protocol can be changed. We will put effort to change the documentation in paralell to changing the protocol.
 
-Wise puts all of its data on Steem blockchain. There is no other way of exchanging messages. It uses a carefoully designed [protocol](https://github.com/noisy-witness/steem-wise-core/tree/master/src/protocol/versions), which has versioning enabled, and is already oriented for future development. (*Here you can find both typescript definitions and a JSON schema of the protocol.*)
+Wise puts all of its data on Steem blockchain. There is no other way of exchanging messages. It uses a carefoully designed [protocol](https://github.com/wise-team/steem-wise-core/tree/master/src/protocol/versions), which has versioning enabled, and is already oriented for future development. (*Here you can find both typescript definitions and a JSON schema of the protocol.*)
 
 Wise publishes the messages to the blockchain as `custom_json` operations. There are three types of messages that wise puts on the blockchain:
 
@@ -113,7 +113,7 @@ Example rejected voteorder:
 
 ## How is protocol defined?
 
-- [Here is a link to a directory with all protocol definition files](https://github.com/noisy-witness/steem-wise-core/tree/master/src/protocol/versions/v2).
+- [Here is a link to a directory with all protocol definition files](https://github.com/wise-team/steem-wise-core/tree/master/src/protocol/versions/v2).
 
 Protocol is defined in a set of typescript classes (link to the protocol definitione). They are compiled to JSON schema file (wise-schema.json in the above directory).
 

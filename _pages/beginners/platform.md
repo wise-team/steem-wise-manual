@@ -17,10 +17,10 @@ Features on the WISE Platform:
 
 ### WiseSQL
 
-Now we have finished the first part of the wise platform: **WiseSQL** ([https://github.com/noisy-witness/steem-wise-sql](https://github.com/noisy-witness/steem-wise-sql)). The WiseSQL is a database with an api that synchronises with the blockchain and stores all wise operations in a searchable way. You can use our first public endpoint:
+Now we have finished the first part of the wise platform: **WiseSQL** ([https://github.com/wise-team/steem-wise-sql](https://github.com/wise-team/steem-wise-sql)). The WiseSQL is a database with an api that synchronises with the blockchain and stores all wise operations in a searchable way. You can use our first public endpoint:
 - [http://muon.jblew.pl:3000/](http://muon.jblew.pl:3000/) — openAPI specs
 - [http://muon.jblew.pl:3000/operations](http://muon.jblew.pl:3000/operations) — the API
 - [http://muon.jblew.pl:3001/](http://muon.jblew.pl:3001/) — Swagger docs for the api.
 
-Examples and instructions on using WiseSQL can be found in the Git repository: [https://github.com/noisy-witness/steem-wise-sql](https://github.com/noisy-witness/steem-wise-sql).
+Examples and instructions on using WiseSQL can be found in the Git repository: [https://github.com/wise-team/steem-wise-sql](https://github.com/wise-team/steem-wise-sql).
 

@@ -14,9 +14,9 @@ Our response to this question is this 3-stage master plan:
 
 ### Phase 1: Building an MVP (completed)
 
-During first stage of Wise development we have focused on building a solid foundation - a [Wise Core](https://github.com/noisy-witness/steem-wise-core) library.
+During first stage of Wise development we have focused on building a solid foundation - a [Wise Core](https://github.com/wise-team/steem-wise-core) library.
 
-Building such a library would not be effective without knowing a requirements from a real application - that's why we have also build [Wise Voting Page](https://wise.vote/voting-page/) and [Wise CLI](https://github.com/noisy-witness/steem-wise-cli), so we could test everything together as a Minimal Viable Product.
+Building such a library would not be effective without knowing a requirements from a real application - that's why we have also build [Wise Voting Page](https://wise.vote/voting-page/) and [Wise CLI](https://github.com/wise-team/steem-wise-cli), so we could test everything together as a Minimal Viable Product.
 
 We recruited from our local community dozens of beta-testers (which are actually a daily users of Wise), so we were able to gather first feedback and to test our assumptions. With all of that, we were ready for...
 
@@ -24,7 +24,7 @@ We recruited from our local community dozens of beta-testers (which are actually
 
 Even the best project won't be used if it is too difficult to use. During 2nd phase we have focused on building tools which makes Wise more user-friendly. We eliminated a need to use raw Steem private keys by integrating Wise Voting Page with **[SteemConnect](https://steemconnect.com/)** and **[Vessel Wallet](https://github.com/aaroncox/vessel/releases)** and we provided a comprehensive online documentation of our tools in form of this website.
 
-But to make a project even more user friendly, we need to learn more about how our users use Wise in reality. We believe that an important role in this will have our projects like [Wise SQL](https://github.com/noisy-witness/steem-wise-sql) or Wise Block Explorer.
+But to make a project even more user friendly, we need to learn more about how our users use Wise in reality. We believe that an important role in this will have our projects like [Wise SQL](https://github.com/wise-team/steem-wise-sql) or Wise Block Explorer.
 
 Phase 2 will be considered as finished after a release of so called **Wise Portal**. Wise Portal in an essence will be an open-source web service, capable of helping a user with all Wise-related stuff, like:
 

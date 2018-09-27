@@ -9,8 +9,8 @@ You can also contact Jędrzej at jedrzejblew@gmail.com.
 
 You can also ask questions as issues in appropriate repository: See:
 
-- [Steem wise core issues](https://github.com/noisy-witness/steem-wise-core/issues)
+- [Steem wise core issues](https://github.com/wise-team/steem-wise-core/issues)
 
-- [Steem wise cli issues](https://github.com/noisy-witness/steem-wise-cli/issues)
+- [Steem wise cli issues](https://github.com/wise-team/steem-wise-cli/issues)
 
-- [Steem wise voter page issues](https://github.com/noisy-witness/steem-wise-voter-page/issues)
+- [Steem wise voter page issues](https://github.com/wise-team/steem-wise-voter-page/issues)
