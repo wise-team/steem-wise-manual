@@ -8,10 +8,7 @@ networks:
 services:
   wise-manual:
     container_name: wise-manual
-    image: jekyll/builder:3.7
-    command: jekyll serve
-    volumes:
-      - $PWD:/srv/jekyll
+    build: .
     ports:
       - 4000:4000
     networks:
