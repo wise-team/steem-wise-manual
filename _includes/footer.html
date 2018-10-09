@@ -17,8 +17,14 @@
         </a>
       </li> 
       <li>
-        <a href="http://sql.wise.vote:80/operations?select=moment,delegator,voter,operation_type&order=moment.desc" rel="nofollow">
-          <img alt="Wise operations count" src="https://img.shields.io/badge/dynamic/json.svg?label=wise%20operations%20count&url=http%3A%2F%2Fsql.wise.vote%3A80%2Foperations%3Fselect%3Dcount&query=%24%5B0%5D.count&colorB=blue&style=flat-square" style="max-width:100%;">
+<!--§ '\n<a href="' + d(data.config.sql.endpoint.schema) + '://' + d(data.config.sql.endpoint.host) + '/operations?select=moment,delegator,voter,operation_type&order=moment.desc" rel="nofollow">\n' §-->
+<a href="https://sql.wise.vote/operations?select=moment,delegator,voter,operation_type&order=moment.desc" rel="nofollow">
+<!--§§.-->
+
+<!--§ '\n<img alt="Wise operations count" src="https://img.shields.io/badge/dynamic/json.svg?label=wise%20operations%20count&url=' + encodeURIComponent(d(data.config.sql.endpoint.schema) + '://' + d(data.config.sql.endpoint.host)) + '&query=%24%5B0%5D.count&colorB=blue&style=flat-square" style="max-width:100%;">\n' §-->
+<img alt="Wise operations count" src="https://img.shields.io/badge/dynamic/json.svg?label=wise%20operations%20count&url=https%3A%2F%2Fsql.wise.vote&query=%24%5B0%5D.count&colorB=blue&style=flat-square" style="max-width:100%;">
+<!--§§.-->
+          
         </a>
       </li>
     </ul>

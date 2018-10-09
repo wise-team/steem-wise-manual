@@ -18,8 +18,19 @@ Features on the WISE Platform:
 ### WiseSQL
 
 Now we have finished the first part of the wise platform: **WiseSQL** ([https://github.com/wise-team/steem-wise-sql](https://github.com/wise-team/steem-wise-sql)). The WiseSQL is a database with an api that synchronises with the blockchain and stores all wise operations in a searchable way. You can use our first public endpoint:
-- [http://sql.wise.vote/](http://sql.wise.vote/) — openAPI specs
-- [http://sql.wise.vote/operations](http://sql.wise.vote/operations) — the API
+
+<!--§ '\n- [' + d(data.config.sql.endpoint.schema) + '://' + d(data.config.sql.endpoint.host) + '/operations](' + d(data.config.sql.endpoint.schema) + '://' + d(data.config.sql.endpoint.host) + '/operations) — the API\n' §-->
+- [https://sql.wise.vote/operations](https://sql.wise.vote/operations) — the API
+<!--§§.-->
+<!--§ '\n- [' + d(data.config.sql.endpoint.schema) + '://' + d(data.config.sql.endpoint.host) + '/properties](' + d(data.config.sql.endpoint.schema) + '://' + d(data.config.sql.endpoint.host) + '/properties) — the API properties\n' §-->
+- [https://sql.wise.vote/properties](https://sql.wise.vote/properties) — the API properties
+<!--§§.-->
+<!--§ '\n- [' + d(data.config.sql.endpoint.schema) + '://' + d(data.config.sql.endpoint.host) + '/delegators](' + d(data.config.sql.endpoint.schema) + '://' + d(data.config.sql.endpoint.host) + '/delegators) — delegators stats\n' §-->
+- [https://sql.wise.vote/delegators](https://sql.wise.vote/delegators) — delegators stats
+<!--§§.-->
+<!--§ '\n- [' + d(data.config.sql.endpoint.schema) + '://' + d(data.config.sql.endpoint.host) + '/voters](' + d(data.config.sql.endpoint.schema) + '://' + d(data.config.sql.endpoint.host) + '/voters) — voters stats\n' §-->
+- [https://sql.wise.vote/voters](https://sql.wise.vote/voters) — voters stats
+<!--§§.-->
 
 Examples and instructions on using WiseSQL can be found in the Git repository: [https://github.com/wise-team/steem-wise-sql](https://github.com/wise-team/steem-wise-sql).
 
