@@ -1,6 +1,6 @@
 ---
 title: Wise
-layout: landing-page
+layout: landing-v2
 permalink: "/new-landing"
 ---
 
