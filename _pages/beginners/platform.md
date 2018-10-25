@@ -19,17 +19,20 @@ Features on the WISE Platform:
 
 Now we have finished the first part of the wise platform: **WiseSQL** ([https://github.com/wise-team/steem-wise-sql](https://github.com/wise-team/steem-wise-sql)). The WiseSQL is a database with an api that synchronises with the blockchain and stores all wise operations in a searchable way. You can use our first public endpoint:
 
-<!--§ '\n- [' + d(data.config.sql.endpoint.schema) + '://' + d(data.config.sql.endpoint.host) + '/operations](' + d(data.config.sql.endpoint.schema) + '://' + d(data.config.sql.endpoint.host) + '/operations) — the API\n' §-->
+<!--§ const url = d(data.config.sql.url.production) + "operations"; '\n- [' + url + '](' + url + ') — the API\n' §-->
 - [https://sql.wise.vote/operations](https://sql.wise.vote/operations) — the API
 <!--§§.-->
-<!--§ '\n- [' + d(data.config.sql.endpoint.schema) + '://' + d(data.config.sql.endpoint.host) + '/properties](' + d(data.config.sql.endpoint.schema) + '://' + d(data.config.sql.endpoint.host) + '/properties) — the API properties\n' §-->
+<!--§ const url = d(data.config.sql.url.production) + "properties"; '\n- [' + url + '](' + url + ') — the API properties\n' §-->
 - [https://sql.wise.vote/properties](https://sql.wise.vote/properties) — the API properties
 <!--§§.-->
-<!--§ '\n- [' + d(data.config.sql.endpoint.schema) + '://' + d(data.config.sql.endpoint.host) + '/delegators](' + d(data.config.sql.endpoint.schema) + '://' + d(data.config.sql.endpoint.host) + '/delegators) — delegators stats\n' §-->
-- [https://sql.wise.vote/delegators](https://sql.wise.vote/delegators) — delegators stats
+<!--§ const url = d(data.config.sql.url.production) + "delegators"; '\n- [' + url + '](' + url + ') — each delegator stats\n' §-->
+- [https://sql.wise.vote/delegators](https://sql.wise.vote/delegators) — each delegator stats
 <!--§§.-->
-<!--§ '\n- [' + d(data.config.sql.endpoint.schema) + '://' + d(data.config.sql.endpoint.host) + '/voters](' + d(data.config.sql.endpoint.schema) + '://' + d(data.config.sql.endpoint.host) + '/voters) — voters stats\n' §-->
-- [https://sql.wise.vote/voters](https://sql.wise.vote/voters) — voters stats
+<!--§ const url = d(data.config.sql.url.production) + "voters"; '\n- [' + url + '](' + url + ') — each voter stats\n' §-->
+- [https://sql.wise.vote/voters](https://sql.wise.vote/voters) — each voter stats
+<!--§§.-->
+<!--§ const url = d(data.config.sql.url.production) + "stats"; '\n- [' + url + '](' + url + ') — general stats\n' §-->
+- [https://sql.wise.vote/stats](https://sql.wise.vote/stats) — general stats
 <!--§§.-->
 
 Examples and instructions on using WiseSQL can be found in the Git repository: [https://github.com/wise-team/steem-wise-sql](https://github.com/wise-team/steem-wise-sql).
