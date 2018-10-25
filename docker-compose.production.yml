@@ -1,0 +1,13 @@
+version: "3"
+
+networks:
+  proxy-tier:
+    external:
+      name: caddy-proxy
+
+services:
+  #§ data.config.manual.docker.services.frontend.name + ':'
+  frontend:
+    networks:
+      - proxy-tier
+    restart: always

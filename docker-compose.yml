@@ -1,13 +1,13 @@
 version: "3"
 
-services:
-  wise-manual:
+services: 
+  #§ data.config.manual.docker.services.frontend.name + ':'
+  frontend:
+    #§ 'container_name: ' + data.config.manual.docker.services.frontend.container
     container_name: wise-manual
-    image: jekyll/builder:3.7
-    command: jekyll serve
-    volumes:
-      - $PWD:/srv/jekyll
+    #§ 'image: ' + data.config.manual.docker.services.frontend.image
+    image: wise/manual
+    build: .
     ports:
       - 4000:4000
-    environment:
-      NODE_ENV: production
+    restart: always
