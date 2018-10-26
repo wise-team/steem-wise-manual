@@ -8,7 +8,4 @@ services:
     #§ 'image: ' + data.config.manual.docker.services.frontend.image
     image: wise/manual
     build: .
-    ports:
-      #§ '- ' + data.config.manual.docker.services.frontend.port + ':4000'
-      - 4000:4000
     restart: always
