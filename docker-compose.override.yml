@@ -6,4 +6,3 @@ services:
     ports:
       #§ '- ' + data.config.manual.docker.services.frontend.port + ':' + data.config.manual.docker.services.frontend.port
       - 4000:4000
-    restart: no
