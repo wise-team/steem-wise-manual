@@ -1,0 +1,729 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.13.0 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Running the Daemon | WISE Manual</title>
+<meta name="description" content="A comprehensive user manual to WISE vote delegation system">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="WISE Manual">
+<meta property="og:title" content="Running the Daemon">
+<meta property="og:url" content="/advanced/daemon">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="/advanced/daemon">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="WISE Manual Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png?v=qABJpEWv7J">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png?v=qABJpEWv7J">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png?v=qABJpEWv7J">
+<link rel="manifest" href="/assets/icons/site.webmanifest?v=qABJpEWv7J">
+<link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg?v=qABJpEWv7J" color="#6b11ff">
+<link rel="shortcut icon" href="/assets/icons/favicon.ico?v=qABJpEWv7J">
+<meta name="apple-mobile-web-app-title" content="Wise">
+<meta name="application-name" content="Wise">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-config" content="/assets/icons/browserconfig.xml?v=qABJpEWv7J">
+<meta name="theme-color" content="#6b11ff">
+
+<!-- end custom head snippets -->
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+    <div class="masthead__inner-wrap">
+      <div class="masthead__menu">
+        <nav id="site-nav" class="greedy-nav">
+          <a href="/"><img class="wise-logo" src="/assets/images/wise-white-color.svg" /></a>
+
+          
+          <a class="site-title" href="/introduction">Manual</a>
+          
+
+          
+          <button class="greedy-nav__toggle hidden" type="button">
+            <span class="visually-hidden">Toggle Menu</span>
+            <div class="navicon"></div>
+          </button>
+          <ul class="hidden-links hidden"></ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Introduction</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li>
+                <a href="/introduction" class="">Introduction</a>
+            
+                
+            </li>
+          
+            
+            
+
+            
+            
+
+            <li>
+                <a href="/installation" class="">Installation</a>
+            
+                
+            </li>
+          
+            
+            
+
+            
+            
+
+            <li>
+                <a href="/about/definitions" class="">Definitions</a>
+            
+                
+            </li>
+          
+            
+            
+
+            
+            
+
+            <li>
+                <a href="/about/video-noisy" class="">Video by @noisy</a>
+            
+                
+            </li>
+          
+            
+            
+
+            
+            
+
+            <li>
+                <a href="/roadmap" class="">Roadmap</a>
+            
+                
+            </li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Beginner's guide</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li>
+                <a href="/beginners/voting-using-voter-page" class="">Voting using voter-page</a>
+            
+                
+            </li>
+          
+            
+            
+
+            
+            
+
+            <li>
+                <a href="/beginners/platform" class="">The WISE platform</a>
+            
+                
+            </li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Advanced guide</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li>
+                <a href="/rules" class="">Rules</a>
+            
+                
+                <ul>
+                
+                    
+                    
+
+                    
+                    
+
+                    <li><a href="/rules" class="">Rules overview</a></li>
+                
+                    
+                    
+
+                    
+                    
+
+                    <li><a href="/rules/age-of-post" class="">Age of post</a></li>
+                
+                    
+                    
+
+                    
+                    
+
+                    <li><a href="/rules/authors" class="">Authors</a></li>
+                
+                    
+                    
+
+                    
+                    
+
+                    <li><a href="/rules/expiration-date" class="">Expiration date</a></li>
+                
+                    
+                    
+
+                    
+                    
+
+                    <li><a href="/rules/tags" class="">Tags</a></li>
+                
+                    
+                    
+
+                    
+                    
+
+                    <li><a href="/rules/payout" class="">Payout</a></li>
+                
+                    
+                    
+
+                    
+                    
+
+                    <li><a href="/rules/voters" class="">Voters</a></li>
+                
+                    
+                    
+
+                    
+                    
+
+                    <li><a href="/rules/votes-count" class="">Votes count</a></li>
+                
+                    
+                    
+
+                    
+                    
+
+                    <li><a href="/rules/voting-power" class="">Voting power</a></li>
+                
+                    
+                    
+
+                    
+                    
+
+                    <li><a href="/rules/weight" class="">Weight</a></li>
+                
+                    
+                    
+
+                    
+                    
+
+                    <li><a href="/rules/weight-for-period" class="">Weight for period</a></li>
+                
+                    
+                    
+
+                    
+                    
+
+                    <li><a href="/rules/first-post" class="">First post</a></li>
+                
+                    
+                    
+
+                    
+                    
+
+                    <li><a href="/rules/examples" class="">Examples</a></li>
+                
+                </ul>
+                
+            </li>
+          
+            
+            
+
+            
+            
+
+            <li>
+                <a href="/advanced/cli" class="">The CLI tool</a>
+            
+                
+            </li>
+          
+            
+            
+
+            
+            
+
+            <li>
+                <a href="/advanced/synchronising-rules" class="">Synchronising the rules</a>
+            
+                
+            </li>
+          
+            
+            
+
+            
+            
+
+            <li>
+                <a href="/advanced/daemon" class="active">Running the daemon</a>
+            
+                
+            </li>
+          
+            
+            
+
+            
+            
+
+            <li>
+                <a href="/advanced/protocol" class="">The WISE protocol</a>
+            
+                
+            </li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">More</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li>
+                <a href="/resources" class="">More resources & docs</a>
+            
+                
+            </li>
+          
+            
+            
+
+            
+            
+
+            <li>
+                <a href="/help" class="">Where to find help</a>
+            
+                
+            </li>
+          
+            
+            
+
+            
+            
+
+            <li>
+                <a href="/contribute" class="">How to contribute</a>
+            
+                
+            </li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+    
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Running the Daemon">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Running the Daemon
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>The daemon is a script that reads subsequent steem blocks in order and looks for voteorders from voters you delegted to. When is comes across a voteorder it validates the rules and checks if it is compliant with them. When all the rules of the ruleset specified in the voteorder are satisfied, a vote is cast. Otherwise a confirm_vote operation (accepted=false) is sent to blockchain. It contains an information why the voteorder was rejected.</p>
+
+<h2 id="first-please-read-the-easiest-tutorial-on-how-to-start-delegating-in-wise"><strong>First please read the <a href="/installation">easiest tutorial on how to start delegating in Wise</a></strong>.</h2>
+
+<h2 id="the-daemon">The daemon</h2>
+
+<p>How does the daemon work? Here is the sequence of work of the daemon:</p>
+
+<ol>
+  <li>
+    <p>It determines the number of block to start from:</p>
+
+    <ol>
+      <li>It checks if the block number was passed as a parameter (eg. <code class="highlighter-rouge">wise daemon 30184103</code>).</li>
+      <li>If it was not, the daemon looks for “synced-block-num.txt” file (1. value specified in config, 2. $PWD/synced-block-num.txt)</li>
+      <li>If the file is not available, it checks if the delegator has sent a confirm_vote operation and starts from that operation (this was the last confirmed/rejected voteorder if you had run the daemon before)</li>
+      <li>If the delegator had never confirmed/rejected any voteorder, it starts from the first block when wise appeared on the blockchain (probably in the future it will be changed to the number of current block).</li>
+    </ol>
+
+    <p><em>Notice: If you initialised wise environment with <code class="highlighter-rouge">wise init</code> command, it already created synced-block-num.txt file. The file was initialised with the current block number. So the daemon will start from the block that was the current block at the time of running the <code class="highlighter-rouge">wise init</code> command.</em></p>
+  </li>
+  <li>
+    <p>It downloads rulesets from account_history of the delegator. <em>Note that a <strong>voteorder is validated against the rulesets (and their versions) that were available at the moment of sending that voteorder.</strong></em></p>
+
+    <p><em>Imagine a situation: (1) you set a ruleset for @jblew, but you do not start the daemon, (2) @jblew sends a voteorder, (3) you delete the ruleset, so that jblew can no longer vote, (4) you start the daemon. ;; What does the daemon do? Of course it accepts the voteorder. Because at the moment of sending the voteorder there was a ruleset for @jblew.</em></p>
+  </li>
+  <li>
+    <p>It reads the first block (with the obtained number of block + 1). It looks for send_voteorder and set_rules operations that has delegator=you.</p>
+
+    <ol>
+      <li>When send_voteorder operation checks in, the daemon:
+        <ol>
+          <li>Checks if specified ruleset existed at the moment when the voteorder was sent</li>
+          <li>Reads the ruleset</li>
+          <li>Starts the Validator, and validates the voteorder against rules in that ruleset</li>
+          <li>If all rules are satisfied it casts the vote, and sends confirm_vote with accepted=true</li>
+          <li>If validation outcome of at least one of the rules is negative, a confirm_vote without a vote is sent to blockchain. It has fields accepted=false, and msg=”… the reason why this voteorder was rejected …”.</li>
+        </ol>
+      </li>
+      <li>When the daemon comes across set_rules operation it updates the internal array of rules. Thanks to that, <strong>you don’t have to stop the daemon to upload new rules</strong>.</li>
+    </ol>
+  </li>
+  <li>
+    <p>When processing transactions from the block is finished, the daemon writes the number of processed block to the “synced-block-num.txt” (or whatever path is set in the config) file. When you stop the daemon, and then start it again, it will continue processing blocks from that point.</p>
+  </li>
+  <li>
+    <p>It reads the next block, and so on until you stop.</p>
+  </li>
+</ol>
+
+<h2 id="running-the-daemon">Running the daemon</h2>
+
+<p>Here you will find the suplement information to the above tutorial. There are two ways of running wise daemon:</p>
+
+<ul>
+  <li>the <strong>classic mode</strong>: you install nodeJS, wise cli, setup an environment and then run the daemon.</li>
+  <li>the <strong>docker mode</strong>: you do not have to install anything. Just clone the repository, edit the docker-compose.yml and do docker-compose up. Scroll down this page for the tutorial on the docker mode.</li>
+</ul>
+
+<h2 id="classic-mode-of-running-the-daemon">Classic mode of running the daemon</h2>
+
+<h3 id="requirements">Requirements</h3>
+
+<p>The shortest way to start is to read the <a href="/installation">delegator tutorial</a>, but if you want do deep dive into becoming a delegator this page is for you.</p>
+
+<p>To start delegating you need to install Wise Cli first, write and upload the rules:</p>
+
+<ol>
+  <li><a href="/advanced/cli">Wise cli installation</a></li>
+  <li>Do <code class="highlighter-rouge">$ wise init</code> (this is an interactive prompt that will guide you through creating the configuration)</li>
+  <li><a href="/rules">Write your rules</a> to the rules.yml file (There are few examples on the bottom of that page. More complex and real-life examples can be found in the <a href="https://github.com/wise-team/steem-wise-cli/tree/master/samples/rules">/samples/rules dir in steem-wise-cli repository</a>)</li>
+  <li><a href="/advanced/synchronising-rules">Upload the rules</a></li>
+</ol>
+
+<h3 id="start-the-daemon">Start the daemon</h3>
+
+<p>Simply do:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>wise daemon
+<span class="c"># that is all</span>
+</code></pre></div></div>
+
+<p>That is all. The daemon loops through all the block since the specified one looking for wise transactions sent by you or your voters. When it comes across a voteorder — it runs validation of the rules. If the validation is passed, the vote is cast, and confirmation is sent to the blockchain. If the validation fails — a confirm_vote is placed on the blockchain with an information why the voteorder was rejected.</p>
+
+<p>Remember, that you can change and syhchronise the rules while the daemon is operating. There is no need to shut it down for rules synchronisation. The daemon will fetch your new rules and validate the subsequent voteorders using the new rules. Rules are deterministic, which means that they have their place on the blockchain timeline which is marked with a block number and transaction number. A voteorder is always validated using the rules that were the most up-to-date rules at the moment (block_num, trx_num) of the voteorder.</p>
+
+<p>After each processed block the daemon saves the number of the block to the file that is specified in config.yml. The default path is “./synced-block-num.txt”. When you resume the daemon — it reads the file and continues processing starting at theblock with number: read value plus one.</p>
+
+<h2 id="docker-mode-of-running-the-daemon">Docker mode of running the daemon</h2>
+
+<p>This is very a very handy way to run the daemon. You do not need to install anything. Docker image is not accessible through Docker hub, but you need only to clone the steem-wise-cli repository, <strong>adjust the settings in docker-compose.yml file</strong> (enter your username and posting key) and exec <code class="highlighter-rouge">docker-compose up</code>. That is all, what is needed to have a running daemon!</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># First, clone the repo</span>
+<span class="nv">$ </span>git clone https://github.com/wise-team/Steem-wise-cli
+<span class="nv">$ </span><span class="nb">cd </span>Steem-wise-cli
+
+<span class="c"># Enter (1) username and (2) posting key, (3) current block number as WISE_DEFAULT_SYNC_START_BLOCK_NUM (you can find what is current block e.g. num at steemd.com)</span>
+<span class="nv">$ </span>nano docker-compose.yml
+
+<span class="c"># Run it! : The preferred way to run it is to use docker-compose (as it requires some config, and a volume). Iterating over blocks is quite slow (~ 3-6x), so it is good idea to adjust WISE_DEFAULT_SYNC_START_BLOCK_NUM in docker-compose.yml file, which will be used if the compose stack is run for the first time.</span>
+<span class="nv">$ </span>docker-compose up
+</code></pre></div></div>
+
+<p>Here is how the docker-compose.yml file looks like:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">version</span><span class="pi">:</span> <span class="s2">"</span><span class="s">3"</span>
+<span class="na">services</span><span class="pi">:</span>
+  <span class="na">wise-daemon</span><span class="pi">:</span>
+    <span class="na">build</span><span class="pi">:</span>
+      <span class="na">context</span><span class="pi">:</span> <span class="s">.</span>
+      <span class="na">dockerfile</span><span class="pi">:</span> <span class="s">Dockerfile</span>
+    <span class="na">command</span><span class="pi">:</span> <span class="s">bash -c "wise sync-rules rules.json &amp;&amp; wise daemon"</span>
+    <span class="na">environment</span><span class="pi">:</span>
+      <span class="na">WISE_STEEM_USERNAME</span><span class="pi">:</span> <span class="s">guest123</span>
+      <span class="na">WISE_STEEM_POSTINGWIF</span><span class="pi">:</span> <span class="s">5JRaypasxMx1L97ZUX7YuC5Psb5EAbF821kkAGtBj7xCJFQcbLg</span>
+      <span class="na">WISE_DEFAULT_SYNC_START_BLOCK_NUM</span><span class="pi">:</span> <span class="s">23085852</span>
+    <span class="na">volumes</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s">${PWD}/samples/sample-rules.json:/app/rules.json:ro</span>
+      <span class="pi">-</span> <span class="s">wise_synced_block_num_volume:/wise-synced-block-num.txt</span>
+<span class="na">volumes</span><span class="pi">:</span>
+  <span class="na">wise_synced_block_num_volume</span><span class="pi">:</span>
+</code></pre></div></div>
+
+<p>A block number that you can see above is the number of block, in which there is the first WISE transaction. See: it all started in a memorable 23085852 :D . If you are running the daemon for the first time - change it to the number of an recent block. Thenks to that you will not have to wait for a long time until the daemon comes to current blocks. It is important to change this env BEFORE YOU RUN THE DAEMON. After starting the daemon docker-compose creates a volume (named <code class="highlighter-rouge">wise_synced_block_num_volume</code>) that holds the number of block. If you would like to <strong>change the number of block that will be synchronised</strong>: delete that volume (<code class="highlighter-rouge">docker volume rm wise_synced_block_num_volume</code>) , change the value in docker-compose.yml file and run docker-compose up once again.</p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+    </div>
+
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+    <ul class="social-icons">
+      
+  
+        
+<!--§ '\n' + data.config.repository.readme.badges.map(badgeGen => { const badge = badgeGen(data); return '<li><a href="' + badge.link + '"><img src="' + badge.image + '" alt="' + badge.title + '" /></a></li>' }).join("\n") + '\n' §-->
+<li><a href="https://github.com/wise-team/steem-wise-manual/blob/master/LICENSE"><img src="https://img.shields.io/github/license/wise-team/steem-wise-manual.svg?style=flat-square" alt="License" /></a></li>
+<li><a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a></li>
+<li><a href="https://discordapp.com/invite/CwxQDbG"><img src="https://img.shields.io/badge/chat%20on%20discord-6b11ff.svg?style=flat-square" alt="Chat" /></a></li>
+<li><a href="https://sql.wise.vote/operations?select=moment,delegator,voter,operation_type&order=moment.desc"><img src="https://img.shields.io/badge/dynamic/json.svg?label=wise%20operations%20count&url=https%3A%2F%2Fsql.wise.vote%2Foperations%3Fselect%3Dcount&query=%24%5B0%5D.count&colorB=blue&style=flat-square" alt="Wise operations count" /></a></li>
+<!--§§.-->
+      </li>
+    </ul>
+  </div>
+  
+  <div class="page__footer-copyright">&copy; 2018 WISE Team. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126196100-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-126196100-1');
+</script>
+
+
+
+
+<script type="text/javascript">
+// source: https://gist.github.com/allybee/5871749
+function targetBlank() {
+  // remove subdomain of current site's url and setup regex
+  var internal = location.host.replace("www.", "");
+      internal = new RegExp(internal, "i");
+      
+  var a = document.getElementsByTagName('a'); // then, grab every link on the page
+  for (var i = 0; i < a.length; i++) {
+    var href = a[i].host; // set the host of each link
+    if( !internal.test(href) ) { // make sure the href doesn't contain current site's host
+      a[i].setAttribute('target', '_blank'); // if it doesn't, set attributes
+      a[i].setAttribute('rel', 'noopener noreferrer'); // if it doesn't, set attributes
+    }
+  }
+};
+
+targetBlank();
+</script>
+
+  </body>
+</html>

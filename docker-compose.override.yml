@@ -1,8 +1,0 @@
-version: "3"
-
-services:
-  #§ data.config.manual.docker.services.frontend.name + ':'
-  frontend:
-    ports:
-      #§ '- ' + data.config.manual.docker.services.frontend.port + ':' + data.config.manual.docker.services.frontend.port
-      - 4000:4000

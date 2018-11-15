@@ -4,8 +4,8 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/.."
 cd "${DIR}"
 
 docker run --rm \
-  --volume="$PWD:/srv/jekyll" \
+  -w "/srv/jekyll" \
+  --volume="$PWD:/srv/jekyll:rw" \
   --volume="jekyll_bundle_cache:/usr/local/bundle" \
-  -p "4000:4000" \
   -it jekyll/builder:3.7 \
-  jekyll serve
+  bash -c "bundle install && bundle exec jekyll build"
