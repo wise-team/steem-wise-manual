@@ -9,3 +9,6 @@ services:
     image: wise/manual
     build: .
     restart: always
+    ports:
+      #§ '- ' + data.config.manual.docker.services.frontend.port + ':80'
+      - 8096:80
