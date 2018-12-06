@@ -6,9 +6,10 @@ ADD . /buildsrc
 RUN sh -c "cp -r /buildsrc/* /app/ && chmod -R 0777 /app && ls /app"
 RUN sh -c "bundle install && bundle exec jekyll build"
 
+CMD jekyll serve
 
-FROM nginx:stable-alpine
-COPY --from=0  /app/_site /usr/share/nginx/html
+# FROM nginx:stable-alpine
+# COPY --from=0  /app/_site /usr/share/nginx/html 
 
 RUN ls /usr/share/nginx/html
 
