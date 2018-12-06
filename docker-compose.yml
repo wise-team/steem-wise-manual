@@ -10,5 +10,5 @@ services:
     build: .
     restart: always
     ports:
-      #§ '- ' + data.config.manual.port + ':80'
-      - 8096:80
+      #§ '- ' + data.config.manual.port + ':4000'
+      - 8096:4000
