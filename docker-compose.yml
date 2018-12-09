@@ -9,3 +9,6 @@ services:
     image: wise/manual
     build: .
     restart: always
+    ports:
+      #§ '- ' + data.config.manual.port + ':4000'
+      - 8096:4000
