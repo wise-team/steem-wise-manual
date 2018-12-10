@@ -4,7 +4,7 @@ permalink: "/beginners/voting-using-voter-page"
 # toc: true
 ---
 
-You will find the Voter Page [here](/voting-page/).
+You will find the Voter Page [here]({{ page.urls.votingPage }}).
 
 Someone had allowed you to vote on his/her behalf? It's now time to do it! Remember that the delegation is a symbol of trust, so think carefully and check the article for which you want to vote. Also remember that you got this delegation because your delegator want you to do it, so don't hesitate to do it. A vote can be undone in case of a mistake.
 

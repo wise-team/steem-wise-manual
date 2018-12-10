@@ -29,6 +29,9 @@ defaults:
       layout: single
       sidebar:
         nav: "menu"
+      urls:
+        #§ 'votingPage: ' + data.config.votingPage.url.production
+        votingPage: https://wise.vote/voting-page/
         
 
 exclude:
