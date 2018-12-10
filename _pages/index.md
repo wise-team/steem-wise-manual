@@ -1,6 +1,6 @@
 ---
 title: "WISE"
-permalink: "/"
+permalink: "/splash"
 layout: splash
 header:
   overlay_color: "#000"
@@ -13,7 +13,8 @@ excerpt: "<i>A vote delegation system for Steem blockchain</i> <br />Let others 
 feature_row:
   - title: "For voters"
     excerpt: "Someone delegetad you his vote? Do you want to vote? <br /> <small>Check instruction <a href=\"beginners/voting-using-voter-page\">here how to vote</a></small>"
-    url: "/voting-page/"
+    #§ 'url: ' + data.config.votingPage.url.production
+    url: https://wise.vote/voting-page/
     btn_label: "Go to the Voter's page"
     btn_class: "btn--primary"
   - title: ""

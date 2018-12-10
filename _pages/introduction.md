@@ -1,6 +1,8 @@
 ---
 title: "WISE: Introduction"
-permalink: "/introduction"
+permalink: "/"
+redirect_from:
+  - /introduction
 # toc: true
 ---
 

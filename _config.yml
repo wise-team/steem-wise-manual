@@ -17,7 +17,7 @@ search: false
 # Build settings
 markdown: kramdown
 plugins:
-  # no plugins
+  - jekyll-redirect-from
 theme: minimal-mistakes-jekyll
 include: [ "_pages" ]
 
