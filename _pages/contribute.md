@@ -9,7 +9,7 @@ We welcome warmly:
 - Bug reports via issues.
 - Enhancement requests via via issues
 - Pull requests
-- Security reports to _jedrzejblew@gmail.com_.
+- Security reports to _contact@wiseteam.io_.
 
 **Before** contributing please read CONTRIBUTING guide (and the standarn CODE_OF_CONDUCT) in appropriate repository.
 

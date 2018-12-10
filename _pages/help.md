@@ -5,7 +5,7 @@ permalink: "/help"
 ---
 
 Feel free to talk with us on our #wise channel on steem.chat: https://steem.chat/channel/wise .
-You can also contact Jędrzej at jedrzejblew@gmail.com.
+You can also contact us at contact@wiseteam.io.
 
 You can also ask questions as issues in appropriate repository: See:
 
